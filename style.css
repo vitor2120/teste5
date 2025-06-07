@@ -1,0 +1,268 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image:url( './img/love02.jpeg');
+    height: 100vh;
+}
+
+@font-face {
+    font-family:'bestfont';
+    src: url('varsity_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menu{
+
+    width: 300px;
+    background-color: rgba(21, 21, 21, 0.804);
+    height: 400px;
+    border-radius: 5px;
+    border: 2px solid rgba(200, 184, 202, 0.498);
+
+}
+.vingrete{
+
+background-color: rgba(20, 19, 19, 0.567);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoMM{
+
+width:170px;
+position: absolute;
+top: 0;
+left: 30px;
+height: 140px;
+
+
+}
+
+
+
+
+h2{
+    margin-top: 15px;
+   color: rgb(169, 34, 189); 
+   text-align: center;
+   font-family: 'bestfont', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttonSim{
+color: white;
+display: flex;
+background-color: rgba(2, 2, 2, 0.81);
+margin: auto;
+margin-top: 40px;
+height: 50px;width: 160px;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-radius: 15px 8px;
+ font-family: 'bestfont', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttonSim:hover{
+background-color: rgba(61, 59, 59, 0.435);
+border: 1px solid white;
+width: 153px;
+}
+
+.buttonNao{
+    color: white;
+    display: flex;
+    background-color: rgba(2, 2, 2, 0.81);
+    margin: auto;
+    margin-top: 40px;
+    height: 50px;width: 160px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 15px 8px;
+     font-family: 'bestfont', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.buttonNao:hover{
+background-color: rgba(61, 59, 59, 0.435);
+border: 1px solid white;
+width: 153px;
+}
+
+.inputs{
+    flex-direction: column;
+    display: flex;
+    margin-top: 20px;
+    padding: 7px 10px;
+
+}
+
+.inputText{
+    padding: 5px;
+    width:100%;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    border: none; 
+    outline: none;
+    background-color: rgba(47, 43, 43, 0.744);
+    border-radius: 5px;
+
+}
+
+.inputPassword{
+    padding: 5px;
+    width:100%;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    border: none; 
+    outline: none;
+    background-color: rgba(47, 43, 43, 0.744);
+     border-radius: 5px;
+
+}
+
+.sim{
+
+color: rgb(255, 255, 255);
+justify-content: center;
+display: none;
+margin-top: 40px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px
+
+
+
+}
+
+
+ .buttonReturn{
+    color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 60px;
+    width:40%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    background-color: rgba(2, 2, 2, 0.81);
+    border-radius: 15px 8PX;
+    cursor: pointer;
+    border: 2px solid rgba(98, 22, 123, 0.617);
+    display: none;
+    
+
+}
+.buttonReturn:hover{
+background-color: rgb(41, 40, 38);
+}
+
+.login{
+
+    color: white;
+    display: flex;
+    width: 50%;
+    height:50px;
+    padding-top: 15px;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    background-color: rgba(2, 2, 2, 0.81);
+    cursor: pointer;
+    border-radius: 15px 7px;
+     font-family: 'bestfont', 'Arial Narrow', Arial, sans-serif;
+     display: none;
+}
+
+.login:hover{
+    width: 142px;
+
+border: 1px solid white;
+
+
+}
+
+
+.errouSenha{
+    display: none;
+    color: white;
+    font-size: smaller;
+    position: absolute;
+    margin-top: 87px;
+    font-size: 12px;
+    padding: 4px 8px;
+    
+}
+
+
+
+
+
+
+@media (max-width:600px){
+    .menu{
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.748);
+    }
+
+    .container-SimNao{
+
+        margin-top:30%;
+    }
+
+    h2{
+     
+     padding-top: 30px;
+        
+
+    }
+    .login{
+
+        width: 150px;
+        background-color: rgb(70, 73, 73);
+
+    }
+
+    .errouSenha{
+    display: none;
+    color: white;
+    font-size: smaller;
+    left: 10px;
+    margin-top: 84px;
+    position: absolute;
+}
+
+    .buttonSim{
+    border: 1px solid white;
+}
+
+.buttonNao{
+    border: 1px solid white;
+}
+
+
+h2{
+
+font-size: 30px;
+
+}
+
+
+
+
+
+
+}
+
